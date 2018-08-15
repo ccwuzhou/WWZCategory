@@ -15,14 +15,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ccwuzhou@163.com/WWZCategory'
+  s.homepage         = 'https://github.com/ccwuzhou/WWZCategory'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ccwuzhou@163.com' => 'ccwuzhou@163.com' }
+  s.author           = { 'ccwuzhou' => 'ccwuzhou@163.com' }
   s.source           = { :git => 'https://github.com/ccwuzhou/WWZCategory.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'WWZCategory/Classes/*{h,m}'
+s.source_files = 'WWZCategory/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'WWZCategory' => ['WWZCategory/Assets/*.png']
