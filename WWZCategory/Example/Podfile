@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WWZCategory_Example' do
+  pod 'WWZCategory', :path => '../'
+
+  target 'WWZCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

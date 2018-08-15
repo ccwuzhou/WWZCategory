@@ -1,0 +1,22 @@
+{
+  "name": "WWZCategory",
+  "version": "0.1.1",
+  "summary": "A short description of WWZCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ccwuzhou@163.com/WWZCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ccwuzhou@163.com": "ccwuzhou@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ccwuzhou@163.com/WWZCategory.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WWZCategory/Classes/**/*"
+}

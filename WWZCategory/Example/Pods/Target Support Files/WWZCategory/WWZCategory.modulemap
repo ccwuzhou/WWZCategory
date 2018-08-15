@@ -1,0 +1,6 @@
+framework module WWZCategory {
+  umbrella header "WWZCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

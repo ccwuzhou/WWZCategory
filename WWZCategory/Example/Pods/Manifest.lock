@@ -1,0 +1,16 @@
+PODS:
+  - WWZCategory (0.1.1)
+
+DEPENDENCIES:
+  - WWZCategory (from `../`)
+
+EXTERNAL SOURCES:
+  WWZCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WWZCategory: bb9e85744259feb556ad5743b5b599a5608cdb36
+
+PODFILE CHECKSUM: 9a0d6b524dc6afc610bc636916861bbff8079e9d
+
+COCOAPODS: 1.2.1
