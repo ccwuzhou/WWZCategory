@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WWZCategory'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of WWZCategory.'
 
   s.description      = <<-DESC
