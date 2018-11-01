@@ -22,14 +22,18 @@ alpha:((float)(rgbValue & 0xFF))/255.0]
 #define WWZ_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define WWZ_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
-#define WWZ_NAV_BAR_HEIGHT (WWZ_SCREEN_HEIGHT == 812.0 ? 88 : 64)
-#define WWZ_STATUS_HEIGHT (WWZ_SCREEN_HEIGHT == 812.0 ? 44 : 20)
-#define WWZ_TAB_BAR_HEIGHT 49
-#define WWZ_SAFE_AREA_BOTTOM_HEIGHT (WWZ_SCREEN_HEIGHT == 812.0 ? 34 : 0)
+#define WWZ_4_SCREEN_HEIGHT 568.0
+#define WWZ_47_SCREEN_HEIGHT 667.0
+#define WWZ_55_SCREEN_HEIGHT 736.0
+#define WWZ_58_SCREEN_HEIGHT 812.0
+#define WWZ_61_SCREEN_HEIGHT 896.0
 
-static float const WWZ_4_SCREEN_HEIGHT = 568.0;
-static float const WWZ_47_SCREEN_HEIGHT = 667.0;
-static float const WWZ_55_SCREEN_HEIGHT = 736.0;
-static float const WWZ_58_SCREEN_HEIGHT = 812.0;
+#define isIPhoneXAll (WWZ_SCREEN_HEIGHT == WWZ_58_SCREEN_HEIGHT || WWZ_SCREEN_HEIGHT == WWZ_61_SCREEN_HEIGHT)
+#define WWZ_NAV_BAR_HEIGHT (isIPhoneXAll ? 88 : 64)
+#define WWZ_STATUS_HEIGHT (isIPhoneXAll ? 44 : 20)
+#define WWZ_TAB_BAR_HEIGHT 49
+#define WWZ_SAFE_AREA_BOTTOM_HEIGHT (isIPhoneXAll ? 34 : 0)
+
+
 
 #endif /* WWZUIHeader_h */
