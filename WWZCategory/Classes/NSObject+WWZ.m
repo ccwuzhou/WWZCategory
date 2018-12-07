@@ -34,7 +34,7 @@
 }
 
 + (void)load{
-    [self switchMethod];
+//    [self switchMethod];
 }
 
 + (void)switchMethod{
